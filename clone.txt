@@ -1,0 +1,13 @@
+fathy@fathy:~$ git clone https://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@github.com/Fathyabdulwahed/command_line_interface.git
+Cloning into 'command_line_interface'...
+warning: You appear to have cloned an empty repository.
+fathy@fathy:~$ git config --global user.name "Fathyabdulwahed"
+fathy@fathy:~$ git config --global user.email "fathymabdulwahid@gmail.com"
+fathy@fathy:~$ cd command_line_interface/
+fathy@fathy:~/command_line_interface$ touch README.md
+fathy@fathy:~/command_line_interface$ vim README.md
+fathy@fathy:~/command_line_interface$ touch clone.txt
+fathy@fathy:~/command_line_interface$ vim clone.txt
+fathy@fathy:~/command_line_interface$ git add .
+fathy@fathy:~/command_line_interface$ git commit -m "My first commit"
+fathy@fathy:~/command_line_interface$ git push
