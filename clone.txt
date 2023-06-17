@@ -10,4 +10,16 @@ fathy@fathy:~/command_line_interface$ touch clone.txt
 fathy@fathy:~/command_line_interface$ vim clone.txt
 fathy@fathy:~/command_line_interface$ git add .
 fathy@fathy:~/command_line_interface$ git commit -m "My first commit"
+[master (root-commit) 09d1b2a] My first commit
+ 2 files changed, 14 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 clone.txt
 fathy@fathy:~/command_line_interface$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 589 bytes | 589.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Fathyabdulwahed/command_line_interface.git
+ * [new branch]      master -> master
