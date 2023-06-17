@@ -1,0 +1,4 @@
+mv ~/programming_ieee/assignment_1.zip ~/command_line_interface/session_1/assignment_1.zip
+fathy@fathy:~/command_line_interface$ git add .
+fathy@fathy:~/command_line_interface$ git commit -m "second commit"
+fathy@fathy:~/command_line_interface$ git push
